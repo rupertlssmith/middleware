@@ -4,7 +4,6 @@ module Program
         , subscriptionsNoop
         , updateNoop
         , viewNoop
-          -- compose
         , compose2
         , compose3
         )
@@ -12,7 +11,7 @@ module Program
 import Html exposing (Html)
 import Program.Compose2 as C2
 import Program.Compose3 as C3
-import Program.Types exposing (..)
+import Program.Types exposing (ProgramRecord, Middleware, HasInnerModel)
 
 
 -- noops
